@@ -21,7 +21,7 @@ import principal.Alertes;
  */
 public class LectureFichier {
     public static BufferedReader fis= null;
-    public static String repertoire="./profil.txt";
+    public static String repertoire="./src/profil.txt";
     public static String[] retournerValeur(){
         try{
             fis = new BufferedReader(new BufferedReader(new FileReader(repertoire)));
